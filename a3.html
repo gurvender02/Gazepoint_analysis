@@ -1,0 +1,67 @@
+<!-- Blockchain Page: blockchain.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Technology</title>
+  <style>
+    body {margin:0;padding:0;font-family:'Segoe UI',sans-serif;background:#fdfdfd;color:#333;}
+    .container {max-width:100%;margin:40px auto;padding:20px;background:#fafafa;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+    h1 {text-align:center;color:#1b2631;}
+    h2 {color:#2e4053;margin-top:20px;}
+    p {line-height:1.6;margin-bottom:15px;}
+    img {float: right; width: 300px; margin: 0 0 20px 30px; position: sticky; top: 10px;}
+    .pagination {
+      position: fixed;
+      bottom: 20px; /* Adjust how far from bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .pagination a {
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 0 4px;
+      background-color: #f0f0f0;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .pagination a:hover {
+      background-color: #ddd;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="main.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Blockchain</h1>
+    <div><img src="/images/a3.png" alt="Blockchain blocks and network"> </div>
+    <h2>Core Concepts</h2>
+    <p>Blockchain is a distributed ledger that records transactions in immutable blocks. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Consensus mechanisms like Proof of Work (PoW) and Proof of Stake (PoS) ensure network security and prevent double-spending.</p>
+    <p>Nodes maintain copies of the ledger, and transactions are validated by miners or validators. Smart contracts—self-executing code stored on-chain—enable automated agreements without intermediaries.</p>
+    <h2>Use Cases Beyond Cryptocurrency</h2>
+    <p>While cryptocurrencies such as Bitcoin and Ethereum brought blockchain to prominence, its applications extend to supply chain management, where provenance and transparency reduce fraud. In healthcare, blockchain secures patient records, enabling interoperable data sharing while preserving privacy.</p>
+    <p>Decentralized finance (DeFi) platforms leverage smart contracts to offer lending, borrowing, and yield farming services without centralized intermediaries. Non-fungible tokens (NFTs) authenticate digital collectibles and intellectual property.</p>
+    <h2>Future Trends and Challenges</h2>
+    <p>Scalability solutions include sharding—splitting the blockchain into parallel chains—and Layer 2 protocols like rollups that process transactions off-chain before settling on-chain. Interoperability projects like Polkadot and Cosmos aim to connect disparate blockchains.</p>
+    <p>Regulatory clarity remains a hurdle, as governments balance innovation with consumer protection. Energy consumption concerns of PoW networks drive research into greener consensus algorithms.</p>
+    
+  </div>
+  <div class="pagination">
+    <a href="a1.html">1</a>
+    <a href="a2.html">2</a>  
+    <a href="a4.html">4</a>
+    <a href="a5.html">5</a>
+    <a href="a6.html">6</a>
+    <a href="a7.html">7</a>
+    <a href="artical.html">8</a>
+    <a href="main.html">9</a>
+  </div>
+</body>
+</html>

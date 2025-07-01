@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijkstra's Algorithm Explained</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 100%;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 20px auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+        }
+        .pagination {
+      position: fixed;
+      bottom: 20px; /* Adjust how far from bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .pagination a {
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 0 4px;
+      background-color: #f0f0f0;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .pagination a:hover {
+      background-color: #ddd;
+    }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Understanding Dijkstra's Algorithm</h1>
+
+    <h2>Introduction to Dijkstra's Algorithm</h2>
+    <p>
+        Dijkstra's Algorithm is a popular graph algorithm used to find the shortest paths
+        from a single source vertex to all other vertices in a weighted graph with non-negative
+        edge weights. It is widely applied in network routing, geographic mapping, and
+        various optimization problems.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Animated visualization of Dijkstra’s Algorithm on a graph">
+
+    <h2>Algorithm Steps</h2>
+    <ol>
+        <li>Initialize distances: Set the distance to the source vertex as 0 and all others as infinity.</li>
+        <li>Use a priority queue (min-heap) to pick the vertex with the smallest current distance.</li>
+        <li>For the selected vertex, update the distances of its adjacent vertices if a shorter path is found.</li>
+        <li>Repeat until all vertices have been processed or the queue is empty.</li>
+        <li>Extract the final shortest path distances from the source to every other vertex.</li>
+    </ol>
+
+    <p>
+        By following these steps, Dijkstra's Algorithm efficiently computes the minimum distance
+        to each node, ensuring that once a vertex is marked visited, the shortest path to it
+        has been found.
+    </p>
+    <div class="pagination">
+        <a href="a2.html">2</a>  
+        <a href="a3.html">3</a>
+        <a href="a4.html">4</a>
+        <a href="a5.html">5</a>
+        <a href="a6.html">6</a>
+        <a href="a7.html">7</a>
+        <a href="artical.html">8</a>
+        <a href="main.html">9</a>
+      </div>
+</div>
+</body>
+</html>

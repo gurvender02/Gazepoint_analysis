@@ -1,0 +1,79 @@
+<!-- Cloud Computing Page: cloud_computing.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Overview</title>
+  <style>
+    body {font-family: 'Georgia', serif; line-height: 1.6; color: #333; background-color: #f9f5ea; margin: 0; padding: 0;}
+    .ribbon {background-color: #8b4513; color: white; text-align: center; padding: 15px 0; font-size: 24px; letter-spacing: 1px; margin-bottom: 20px; box-shadow: 0 3px 5px rgba(0,0,0,0.2);}
+    .content-wrapper {max-width: 1500px; margin: 0 auto; padding: 0 20px; position: relative;}
+    .image-container {float: right; width: 300px; margin: 0 0 20px 30px; position: sticky; top: 20px;}
+    .image-container img {width: 100%; height: auto; border-radius: 8px; box-shadow: 3px 3px 10px rgba(0,0,0,0.3); border: 1px solid #d1b48c;}
+    .text-content {overflow: auto;}
+    h1 {color: #5c3317; font-size: 32px; margin-top: 0; border-bottom: 2px solid #d1b48c; padding-bottom: 10px;}
+    h2 {color: #8b4513; font-size: 24px; margin-top: 10px; clear: left;}
+    p {text-align: justify; margin-bottom: 20px;}
+    .fact-box {background-color: #eadfc8; border-left: 4px solid #8b4513; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; clear: left;}
+    .fact-box h3 {margin-top: 0; color: #5c3317;}
+    .quote {font-style: italic; font-size: 18px; color: #666; border-left: 3px solid #d1b48c; padding-left: 15px; margin: 20px 0; clear: left;}
+    @media (max-width: 768px) {
+      .image-container {float: none; width: 60%; margin: 0 auto 20px; position: relative;}
+    }
+    .pagination {
+      position: fixed;
+      bottom: 20px; /* Adjust how far from bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .pagination a {
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 0 4px;
+      background-color: #f0f0f0;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .pagination a:hover {
+      background-color: #ddd;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="ribbon">Cloud Computing</div>
+  <div class="content-wrapper">
+    <div class="image-container">
+      <img src="/images/a2png.png" alt="Illustration of cloud computing">
+    </div>
+    <div class="text-content">
+      <h1>Cloud Computing</h1>
+      <p>Cloud computing provides on-demand access to computing resources over the internet. It removes the need for organizations to manage physical servers by offering virtualized services. The key service models are <strong>IaaS</strong>, <strong>PaaS</strong>, and <strong>SaaS</strong>, enabling varying levels of control and management.</p>
+      <h2>Service and Deployment Models</h2>
+      <p>IaaS delivers virtual machines and storage, exemplified by AWS EC2 and Google Compute Engine. PaaS offers development platforms like Heroku, abstracting server management. SaaS provides complete applications such as Office 365. Deployment can be public, private, hybrid, or community-based, each balancing cost, control, and security.</p>
+      <div class="fact-box">
+        <h3>Did you know?</h3>
+        <p>Amazon Web Services was launched in 2006 as S3 and EC2, kickstarting the modern cloud era.</p>
+      </div>
+      <h2>Benefits and Challenges</h2>
+      <p>Benefits include scalability, cost efficiency, and high availability. Auto-scaling adapts to traffic spikes, while CDNs reduce latency. Challenges involve data sovereignty, vendor lock-in, and ensuring compliance with regulations like GDPR and HIPAA.</p>
+    </div>
+  </div>
+  <div class="pagination">
+    <a href="a1.html">1</a>
+    <a href="a3.html">3</a>
+    <a href="a4.html">4</a>
+    <a href="a5.html">5</a>
+    <a href="a6.html">6</a>
+    <a href="a7.html">7</a>
+    <a href="artical.html">8</a>
+    <a href="main.html">9</a>
+  </div>
+</body>
+</html>

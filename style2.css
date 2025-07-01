@@ -1,0 +1,144 @@
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f5ea;
+  margin: 0;
+  padding: 0;
+}
+
+.ribbon {
+  background-color: #8b4513;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+.content-wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.image-container {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 30px;
+  position: sticky;
+  top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  border: 1px solid #d1b48c;
+}
+
+.text-content {
+  overflow: auto; /* Ensures content wraps around the floated image */
+}
+
+h1 {
+  color: #5c3317;
+  font-size: 32px;
+  margin-top: 0;
+  border-bottom: 2px solid #d1b48c;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #8b4513;
+  font-size: 24px;
+  margin-top: 10px;
+  clear: left; /* Ensures headings don't wrap awkwardly */
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: #5c3317;
+}
+
+em {
+  font-style: italic;
+}
+
+.fact-box {
+  background-color: #eadfc8;
+  border-left: 4px solid #8b4513;
+  padding: 15px;
+  margin: 25px 0;
+  border-radius: 0 8px 8px 0;
+  clear: left; /* Ensures fact boxes don't wrap awkwardly */
+}
+
+.fact-box h3 {
+  margin-top: 0;
+  color: #5c3317;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+  color: #666;
+  border-left: 3px solid #d1b48c;
+  padding-left: 15px;
+  margin: 20px 0;
+  clear: left; /* Ensures quotes don't wrap awkwardly */
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    float: none;
+    width: 60%;
+    margin: 0 auto 20px;
+    position: relative;
+  }
+}
+
+
+#gaze-words-window {
+  font-family: monospace;
+  z-index: 10000;
+}
+button {
+  font-size: 16px;
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination {
+  position: fixed;
+  bottom: 20px; /* Adjust how far from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 8px 12px;
+  margin: 0 4px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
