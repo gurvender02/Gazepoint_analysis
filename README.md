@@ -1,7 +1,7 @@
 
 # Eye Tracking Visualization & Analysis Toolkit
 
-[![Project Preview](![Image](https://github.com/user-attachments/assets/2a210524-45d8-477d-a3c6-dae976d4c2a1)) ](https://github.com/gurvender02/Gazepoint_analysis/issues/1#issue-3197917442)
+[![Project Preview]![Image](https://github.com/user-attachments/assets/58460d90-3472-41d1-9bf9-9e3e5c9407e2)
 
 
 A web-based visualization tool that processes eye-tracking data to create interactive heatmaps, analyze reading patterns, and provide insights into user attention distribution across web content.
